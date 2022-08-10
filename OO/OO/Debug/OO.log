@@ -1,0 +1,38 @@
+﻿Build started 02/05/2018 12:45:21 ص.
+     1>Project "c:\Users\DELL\documents\visual studio 2010\Projects\OO\OO\OO.vcxproj" on node 2 (build target(s)).
+     1>PrepareForBuild:
+         Creating directory "c:\users\dell\documents\visual studio 2010\Projects\OO\Debug\".
+       InitializeBuildStatus:
+         Creating "Debug\OO.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt OO.cpp
+         OO.cpp
+     1>c:\users\dell\documents\visual studio 2010\projects\oo\oo\oo.cpp(3): error C2146: syntax error : missing ';' before identifier 'ChopStick'
+     1>c:\users\dell\documents\visual studio 2010\projects\oo\oo\oo.cpp(3): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>c:\users\dell\documents\visual studio 2010\projects\oo\oo\oo.cpp(3): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>c:\users\dell\documents\visual studio 2010\projects\oo\oo\oo.cpp(4): error C2146: syntax error : missing ';' before identifier 'speak'
+     1>c:\users\dell\documents\visual studio 2010\projects\oo\oo\oo.cpp(4): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>c:\users\dell\documents\visual studio 2010\projects\oo\oo\oo.cpp(4): error C2086: 'int binarysem' : redefinition
+                 c:\users\dell\documents\visual studio 2010\projects\oo\oo\oo.cpp(3) : see declaration of 'binarysem'
+     1>c:\users\dell\documents\visual studio 2010\projects\oo\oo\oo.cpp(4): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>c:\users\dell\documents\visual studio 2010\projects\oo\oo\oo.cpp(12): error C3861: 'signal': identifier not found
+     1>c:\users\dell\documents\visual studio 2010\projects\oo\oo\oo.cpp(14): error C3861: 'wait': identifier not found
+     1>c:\users\dell\documents\visual studio 2010\projects\oo\oo\oo.cpp(15): error C3861: 'wait': identifier not found
+     1>c:\users\dell\documents\visual studio 2010\projects\oo\oo\oo.cpp(18): error C3861: 'wait': identifier not found
+     1>c:\users\dell\documents\visual studio 2010\projects\oo\oo\oo.cpp(19): error C3861: 'wait': identifier not found
+     1>c:\users\dell\documents\visual studio 2010\projects\oo\oo\oo.cpp(22): error C3861: 'wait': identifier not found
+     1>c:\users\dell\documents\visual studio 2010\projects\oo\oo\oo.cpp(24): error C3861: 'signal': identifier not found
+     1>c:\users\dell\documents\visual studio 2010\projects\oo\oo\oo.cpp(25): error C3861: 'signal': identifier not found
+     1>c:\users\dell\documents\visual studio 2010\projects\oo\oo\oo.cpp(26): error C3861: 'signal': identifier not found
+     1>c:\users\dell\documents\visual studio 2010\projects\oo\oo\oo.cpp(28): error C2143: syntax error : missing ';' before '{'
+     1>c:\users\dell\documents\visual studio 2010\projects\oo\oo\oo.cpp(28): error C3861: 'main': identifier not found
+     1>c:\users\dell\documents\visual studio 2010\projects\oo\oo\oo.cpp(31): error C3861: 'initialsem': identifier not found
+     1>c:\users\dell\documents\visual studio 2010\projects\oo\oo\oo.cpp(32): error C3861: 'initialsem': identifier not found
+     1>c:\users\dell\documents\visual studio 2010\projects\oo\oo\oo.cpp(35): error C2065: 'cobegin' : undeclared identifier
+     1>c:\users\dell\documents\visual studio 2010\projects\oo\oo\oo.cpp(35): error C2143: syntax error : missing ';' before '{'
+     1>c:\users\dell\documents\visual studio 2010\projects\oo\oo\oo.cpp(39): fatal error C1075: end of file found before the left brace '{' at 'c:\users\dell\documents\visual studio 2010\projects\oo\oo\oo.cpp(10)' was matched
+     1>Done Building Project "c:\Users\DELL\documents\visual studio 2010\Projects\OO\OO\OO.vcxproj" (build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:01.82
